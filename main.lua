@@ -1,9 +1,9 @@
 local placeId = game.PlaceId
 
 if placeId == 4520749081 or placeId == 6381829480 or placeId == 15759515082 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kazimzm1/fictional-spork/refs/heads/main/raid.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kazimzm1/fictional-spork/refs/heads/main/run.lua"))()
 elseif placeId == 5931540094 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/raid.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kazimzm1/fictional-spork/refs/heads/main/raid.lua"))()
 end
 
 local bb = game:GetService("VirtualUser")
